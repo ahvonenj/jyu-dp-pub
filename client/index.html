@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JYU-DP</title>
+		<link rel = "stylesheet" type = "text/css" href = "style/index.css">
+
+		<script src = "script/lib/jquery-3.1.1.min.js"></script>
+		<script src = "script/dropbox.js"></script>
+		<script src = "script/index.js"></script>
+	</head>
+	<body>
+		<div id = "wrapper">
+
+			<div id = "header">
+				Tiny dropbox client
+			</div>
+
+			<div id = "user_info">
+				<div id = "user_info_header">
+					User info
+				</div>
+				<div id = "user_info_content">
+					Loading user info...
+				</div>
+			</div>
+
+			<div id = "folder_listing">
+				<div id = "folder_listing_header">
+					Folder listing
+				</div>
+				<div id = "folder_listing_content">
+					Loading folder info...
+				</div>
+				<div id = "file_upload">
+					<div id = "file_upload_header">
+						Upload a file to Dropbox
+					</div>
+					<div id = "file_upload_content">
+						<input type = "file" id = "file_to_upload"/><br/>
+						<input id = "upload_button" type = "button" onclick = "uploadFile()" value = "Upload"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

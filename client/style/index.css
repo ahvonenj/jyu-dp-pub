@@ -1,0 +1,140 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body
+{
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper
+{
+	width: 100%;
+	height: 100%;
+
+	font-family: Roboto, Arial;
+
+	background-color: #ecf0f1;
+}
+
+#header
+{
+	width: 100%;
+	font-size: 18pt;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	border-bottom: 1px solid #2895F1;
+	color: #3D464D;
+}
+
+#user_info
+{
+	float: left;
+	width: 50%;
+	height: calc(100% - 50px);
+	border: 1px solid #2895F1;
+}
+
+#user_info_header
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	font-size: 18pt;
+	border-bottom: 1px solid #2895F1;
+	color: #3D464D;
+}
+
+#user_info_content
+{
+	height: calc(100% - 50px);
+	width: 100%;
+	padding: 15px;
+	overflow: auto;
+}
+
+#user_info_table
+{
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+}
+
+#user_info_table td
+{
+	padding: 5px;
+}
+
+#folder_listing
+{
+	float: right;
+	width: 50%;
+	height: calc(100% - 50px);
+	border: 1px solid #2895F1;
+}
+
+#folder_listing_header
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	font-size: 18pt;
+	border-bottom: 1px solid #2895F1;
+	color: #3D464D;
+}
+
+#folder_listing_content
+{
+	height: calc(100% - 50px - 200px);
+	width: 100%;
+	padding: 15px;
+	overflow: auto;
+}
+
+#filelist
+{
+	margin-top: 15px;
+    margin-left: 30px;
+}
+
+#file_upload
+{
+	border-top: 1px solid #2895F1;
+	width: 100%;
+	height: 200px;
+}
+
+#file_upload_header
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	font-size: 18pt;
+	border-bottom: 1px solid #2895F1;
+	color: #3D464D;
+}
+
+#file_upload_content
+{
+	height: calc(100% - 50px);
+	padding: 15px;
+}
+
+#file_to_upload
+{
+
+}
+
+#upload_button
+{
+	padding: 8px;
+    margin-top: 10px;
+}
